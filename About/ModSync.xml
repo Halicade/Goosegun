@@ -2,7 +2,7 @@
 <ModSyncNinjaData>
   <ID>8f156dd4-3911-b78e-4396-2f1b5f19275f</ID>
   <ModName>GooseGun</ModName>
-  <Version>0.0.0.0</Version>
+  <Version>1.0.1.0</Version>
   <SaveBreaking>False</SaveBreaking>
   <Host name="Github">
     <Owner>pardeike</Owner>
