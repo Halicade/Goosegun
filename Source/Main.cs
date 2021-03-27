@@ -32,4 +32,14 @@ namespace Goosegun
 			base.WriteSettings();
 		}
 	}
+
+	[HarmonyPatch(typeof(Game))]
+	[HarmonyPatch("FinalizeInit")]
+	static class Game_FinalizeInit_Patch
+	{
+		public static void Postfix()
+		{
+			ModCounter.Trigger();
+		}
+	}
 }
