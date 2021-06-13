@@ -7,7 +7,7 @@ namespace Goosegun
 	{
 		static readonly PawnKindDef gooseDef = PawnKindDef.Named("Goose");
 
-		protected override void Impact(Thing hitThing)
+		public override void Impact(Thing hitThing)
 		{
 			var faction = FactionUtility.DefaultFactionFrom(gooseDef.defaultFactionType);
 			var pawn = PawnGenerator.GeneratePawn(gooseDef, faction);
