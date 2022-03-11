@@ -1,4 +1,5 @@
-﻿using HarmonyLib;
+﻿using Brrainz;
+using HarmonyLib;
 using UnityEngine;
 using Verse;
 
@@ -10,6 +11,8 @@ namespace Goosegun
 		{
 			var harmony = new Harmony("net.pardeike.goosegun");
 			harmony.PatchAll();
+
+			CrossPromotion.Install(76561197973010050);
 		}
 
 		public override void DoSettingsWindowContents(Rect inRect)
