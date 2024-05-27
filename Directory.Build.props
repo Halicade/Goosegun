@@ -1,0 +1,11 @@
+﻿<Project>
+
+	<PropertyGroup>
+		<ModName>Goosegun</ModName>
+		<ModFileName>Goosegun</ModFileName>
+		<Repository>https://github.com/pardeike/Goosegun</Repository>
+		<ModVersion>1.3.0.0</ModVersion>
+		<ProjectGuid>{8F1927D4-3911-4396-B78E-5F156D2F1B5F}</ProjectGuid>
+	</PropertyGroup>
+
+</Project>

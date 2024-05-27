@@ -13,7 +13,7 @@ namespace Goosegun
 			var pawn = PawnGenerator.GeneratePawn(gooseDef, faction);
 			var goose = GenSpawn.Spawn(pawn, Position, Map, WipeMode.Vanish) as Pawn;
 			_ = goose.health.AddHediff(HediffDefOf.Scaria, null, null, null);
-			_ = goose.mindState.mentalStateHandler.TryStartMentalState(MentalStateDefOf.ManhunterPermanent, null, false, false, null, false);
+			_ = goose.mindState.mentalStateHandler.TryStartMentalState(MentalStateDefOf.ManhunterPermanent);
 
 			GenClamor.DoClamor(this, 2.1f, ClamorDefOf.Impact);
 			Destroy(DestroyMode.Vanish);
