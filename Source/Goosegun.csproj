@@ -27,6 +27,7 @@
 		<Optimize>true</Optimize>
 		<DebugType>none</DebugType>
 		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<OutputPath>..\1.6\Assemblies\</OutputPath>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -35,6 +36,7 @@
 		<Optimize>false</Optimize>
 		<DebugType>portable</DebugType>
 		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<OutputPath>..\1.6\Assemblies\</OutputPath>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -45,8 +47,8 @@
 
 	<ItemGroup>
 		<PackageReference Include="Brrainz.RimWorld.CrossPromotion" Version="1.1.2" />
-		<PackageReference Include="Krafs.Rimworld.Ref" Version="1.5.4104" GeneratePathProperty="true" />
-		<PackageReference Include="Lib.Harmony" Version="2.3.3" ExcludeAssets="runtime" />
+		<PackageReference Include="Krafs.Rimworld.Ref" Version="1.6.4494-beta" GeneratePathProperty="true" />
+		<PackageReference Include="Lib.Harmony" Version="2.3.6" ExcludeAssets="runtime" />
 		<PackageReference Include="Microsoft.NETCore.Platforms" Version="7.0.4" />
 		<PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies.net472" Version="1.0.3">
 			<PrivateAssets>all</PrivateAssets>
